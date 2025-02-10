@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link href="../style/login.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">     
+        <div class="main-box register">
+            <h1>Register</h1>
+            <form action="" method="get">
+                <div class="input-box">
+                    <label>Username</label>
+                    <input placeholder="Enter Username" type="text" required />
+                </div>
+                <div class="input-box">
+                    <label>Password</label>
+                    <input placeholder="Enter Password" type="password" required />
+                </div>
+                <div class="input-box">
+                    <label>Re-Password</label>
+                    <input placeholder="Confirm Password" type="password" required />
+                </div>
+                <div class="input-box">
+                    <label>City</label>
+                    <input placeholder="Enter City" type="text" required />
+                </div>
+                <div class="input-box">
+                    <label>Name</label>
+                    <input placeholder="Enter name" type="text" required />
+                </div>
+                <div class="input-box">
+                    <label>Last Name</label>
+                    <input placeholder="Enter Last Name" type="text" required />
+                </div>
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input placeholder="Enter Phone number" type="text" required />
+                </div>
+                <div class="align">
+                    <h2>Select gender</h2>
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender" value="female" />
+                    <label for="male">female</label>
+                    <input type="radio" id="other" name="gender" value="other" required />
+                    <label for="male">other</label>
+                </div>
+                <div class="align">
+                    <h2>Select favorite drink type</h2>
+                    <input type="radio" id="Carbonated " name="drink" value="Carbonated " />
+                    <label for="male">Carbonated</label>
+                    <input type="radio" id="water" name="drink" value="water" />
+                    <label for="male">water</label>
+                    <input type="radio" id="sweet" name="drink" value="sweet" required />
+                    <label for="male">sweet</label>
+                </div>
+                <br />
+                <div class="align">
+                    <label for="colors">choose a color:</label>
+                    <select required>
+                        <option value="" selected="selected"></option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="yellow">yellow</option>
+                        <option value="sky blue">sky blue</option>
+                        <option value="black">black</option>
+                        <option value="white">white</option>
+                        <option value="purple">purple</option>
+                        <option value="pink">pink</option>
+                    </select>
+                </div>
+                <br />
+                <div class="button-group">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </div>
+                <div>
+                    <p>Already have an account?<a style="padding-left:90px" href="Login form.html">Login</a></p>
+                </div>
+                <div class="back">
+                    <a style=" text-decoration: none; " href="HomePage.html">back to home</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

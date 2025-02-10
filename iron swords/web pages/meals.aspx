@@ -1,0 +1,171 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/web pages/Mater-Page.Master" AutoEventWireup="true" CodeBehind="meals.aspx.cs" Inherits="iron_swords.web_pages.meals" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta charset="utf-8">
+    <link href="../style/boxes.css" rel="stylesheet" />
+    <link href="../style/StyleSheet.css" rel="stylesheet" />
+    <title>Meal Plans and Workouts</title>
+    <style>
+        ul {
+            list-style: none
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="headline">
+        <h1>Meal Plans</h1>
+        <p>Explore our meal plans to support your fitness goals. Choose between different meal plan options tailored to your needs.</p>
+    </div>
+    <div class="box-meal-30">
+        <h2>Protein-Packed Meal Plan</h2>
+        <p><em>Duration: 4 weeks | Goal: Muscle Gain</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Scrambled eggs with spinach and whole-grain toast.</li>
+            <li>Lunch: Grilled chicken breast with quinoa and roasted vegetables.</li>
+            <li>Snack: Greek yogurt with berries and a drizzle of honey.</li>
+            <li>Dinner: Baked salmon with brown rice and steamed broccoli.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Protein smoothie with banana, whey protein, and almond milk.</li>
+            <li>Lunch: Turkey and avocado wrap with a side salad.</li>
+            <li>Snack: Cottage cheese with pineapple and nuts.</li>
+            <li>Dinner: Grilled lean steak with sweet potatoes and asparagus.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Oatmeal with protein powder, berries, and almond butter.</li>
+            <li>Lunch: Quinoa bowl with black beans, vegetables, and grilled shrimp.</li>
+            <li>Snack: Protein bar and a small apple.</li>
+            <li>Dinner: Baked chicken with quinoa and mixed greens salad.</li>
+        </ul>
+    </div>
+    <div class="box-meal-30">
+        <h2>Low-Carb Meal Plan</h2>
+        <p><em>Duration: 6 weeks | Goal: Fat Loss</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Scrambled egg whites with sautéed spinach.</li>
+            <li>Lunch: Grilled salmon with a side of asparagus and lemon sauce.</li>
+            <li>Snack: Cottage cheese with cucumber and cherry tomatoes.</li>
+            <li>Dinner: Baked turkey breast with steamed broccoli.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Greek yogurt with chia seeds and mixed berries.</li>
+            <li>Lunch: Zucchini noodles with grilled chicken and pesto sauce.</li>
+            <li>Snack: Almonds and a small apple.</li>
+            <li>Dinner: Baked cod with quinoa and roasted Brussels sprouts.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Protein smoothie with spinach, protein powder, and almond milk.</li>
+            <li>Lunch: Turkey and avocado salad with balsamic vinaigrette.</li>
+            <li>Snack: Carrot sticks with hummus.</li>
+            <li>Dinner: Grilled shrimp with cauliflower rice and green beans.</li>
+        </ul>
+    </div>
+    <div class="box-meal-30">
+        <h2>Keto Meal Plan</h2>
+        <p><em>Duration: 8 weeks | Goal: Ketosis and Fat Loss</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Avocado and bacon omelet.</li>
+            <li>Lunch: Grilled chicken salad with mixed greens and olive oil dressing.</li>
+            <li>Snack: Sliced cucumbers with cream cheese.</li>
+            <li>Dinner: Baked salmon with broccoli and garlic butter.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Keto-friendly smoothie with almond milk, spinach, and protein powder.</li>
+            <li>Lunch: Zucchini noodles with pesto and cherry tomatoes.</li>
+            <li>Snack: Almonds and a small serving of blueberries.</li>
+            <li>Dinner: Grilled steak with cauliflower mash and asparagus.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Chia seed pudding with coconut milk and raspberries.</li>
+            <li>Lunch: Sliced turkey and cheese roll-ups with a side of olives.</li>
+            <li>Snack: Keto-friendly protein bar and celery sticks.</li>
+            <li>Dinner: Baked cod with sautéed spinach and lemon-garlic sauce.</li>
+        </ul>
+    </div>
+
+    <div class="box-meal-30">
+        <h2>Vegetarian Meal Plan</h2>
+        <p><em>Duration: 6 weeks | Goal: Plant-Based Nutrition</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Vegan protein smoothie with spinach and almond milk.</li>
+            <li>Lunch: Chickpea and quinoa salad with tahini dressing.</li>
+            <li>Snack: Sliced bell peppers with hummus.</li>
+            <li>Dinner: Lentil curry with brown rice and steamed vegetables.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Vegan yogurt with mixed berries and granola.</li>
+            <li>Lunch: Stuffed bell peppers with rice and black beans.</li>
+            <li>Snack: Trail mix with nuts, dried fruit, and seeds.</li>
+            <li>Dinner: Roasted tofu with quinoa and roasted Brussels sprouts.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Vegan protein pancakes with sliced bananas and maple syrup.</li>
+            <li>Lunch: Spinach and mushroom quiche with a side of mixed greens.</li>
+            <li>Snack: Sliced apples with almond butter.</li>
+            <li>Dinner: Chickpea stew with whole-grain pita bread.</li>
+        </ul>
+    </div>
+    <div class="box-meal-30">
+        <h2>High-Protein Vegan Meal Plan</h2>
+        <p><em>Duration: 4 weeks | Goal: Plant-Based Protein Intake</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Tofu scramble with spinach and whole-grain toast.</li>
+            <li>Lunch: Vegan black bean burger with a side of sweet potato fries.</li>
+            <li>Snack: Plant-based protein smoothie with almond milk and berries.</li>
+            <li>Dinner: Lentil and vegetable stir-fry with quinoa.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Vegan protein pancakes with maple syrup and fresh fruit.</li>
+            <li>Lunch: Chickpea salad with mixed greens and balsamic vinaigrette.</li>
+            <li>Snack: Vegan protein bar and a serving of carrot sticks.</li>
+            <li>Dinner: Vegan chili with avocado and whole-grain rice.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Vegan protein smoothie bowl with granola and coconut flakes.</li>
+            <li>Lunch: Tempeh stir-fry with broccoli and brown rice.</li>
+            <li>Snack: Vegan yogurt with chia seeds and fresh berries.</li>
+            <li>Dinner: Vegan BBQ lentil sandwiches with coleslaw.</li>
+        </ul>
+    </div>
+
+    <div class="box-meal-30">
+        <h2>Low-Carb High-Fat Meal Plan (Ketogenic)</h2>
+        <p><em>Duration: 6 weeks | Goal: Ketosis and Weight Management</em></p>
+        <h3>Week 1</h3>
+        <ul>
+            <li>Breakfast: Keto bacon and egg muffins with a side of avocado.</li>
+            <li>Lunch: Keto-friendly spinach and feta stuffed chicken breast.</li>
+            <li>Snack: Macadamia nuts and string cheese.</li>
+            <li>Dinner: Keto buttery shrimp and asparagus skillet.</li>
+        </ul>
+        <h3>Week 2</h3>
+        <ul>
+            <li>Breakfast: Keto avocado smoothie with almond milk and MCT oil.</li>
+            <li>Lunch: Keto taco salad with ground beef, lettuce, and salsa.</li>
+            <li>Snack: Keto beef jerky and olives.</li>
+            <li>Dinner: Keto garlic butter steak with roasted Brussels sprouts.</li>
+        </ul>
+        <h3>Week 3</h3>
+        <ul>
+            <li>Breakfast: Keto chia seed pudding with coconut milk and raspberries.</li>
+            <li>Lunch: Keto pesto zucchini noodles with grilled chicken.</li>
+            <li>Snack: Keto dark chocolate and almond butter cups.</li>
+            <li>Dinner: Keto creamy bacon and mushroom chicken.</li>
+        </ul>
+    </div>
+
+</asp:Content>

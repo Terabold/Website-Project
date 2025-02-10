@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mater-Page.master.cs" Inherits="iron_swords.web_pages.Mater_Page" ClientIDMode="static" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../style/menu.css" rel="stylesheet" /> 
+    <asp:ContentPlaceHolder ID="head" runat="server">            
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h2 class="visitor" style="text-align:center;" id="welcomevisitor" runat="server"> <%= "Hi, " + Session["userName"]%></h2>
+         <menu>
+     <img class="logo" src="../pictures/logo text.png" alt="logo">
+     <nav>
+         <ul class="nav-links">
+             <li><a id="home" runat="server" href="HomePage.aspx">Home</a></li>
+             <li><a id="preparation" runat="server" href="Preparation.aspx">Preparation</a></li>
+
+             <li class="dropdown" id="flexabilityli" runat="server">
+                 <a href="Flexibility%20and%20Mobility%20Exercises.aspx">Flexability</a>
+                 <div class="dropdown-content">
+                     <a href="Flexibility%20and%20Mobility%20Exercises.aspx">About Flexability</a>
+                     <a runat="server" id="flexabilityworkouts" href="Flexibility%20workouts.aspx">Flexability Workouts</a>
+                 </div>
+             </li>
+
+             <li class="dropdown" id="stregnthli" runat="server">
+                 <a href="strength%20Training.aspx">Strength</a>
+                 <div class="dropdown-content">
+                     <a href="strength%20Training.aspx">About Strength</a>
+                     <a runat="server" id="strengthworkout" href="Workouts.aspx">Strength Workouts</a>
+                 </div>
+             </li>
+
+             <li class="dropdown" id="nutritionli" runat="server">
+             <a href="Nutrition and Protein Meals.aspx">Nutrition</a>
+             <div class="dropdown-content">
+                 <a href="Nutrition%20and%20Protein%20Meals.aspx">About Nutrition</a>
+                 <a runat="server" id="mealplans" href="meals.aspx">Meal Plans</a>
+             </div>
+             </li>
+
+             <li><a id="tips" runat="server" href="Fitness Tips and Techniques.aspx">Techniques</a></li>
+             <li><a id="cardio" runat="server" href="Cardiovascular Workouts.aspx">Cardiovascular</a></li>
+             <li runat="server" id="tacticot"><a href="tacticot.aspx">tacticot</a></li>
+             <li runat="server" id="userinfo"><a href="users.aspx">users</a></li>
+         </ul>
+     </nav>
+     <div class="loginbutton-group" runat="server" id="logregister">
+         <a class="loginbutton" href="Login form.aspx">Login</a>
+         <a class="loginbutton" href="Register.aspx">Register</a>
+     </div>
+        <button type="button" name="btnLogOut" id="btnLogOut" runat="server" onserverclick="BtnLogOut_ServerClick" class="loginbutton">Log Out</button>
+ </menu>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

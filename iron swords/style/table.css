@@ -1,0 +1,30 @@
+﻿.tablediv {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+table{
+    box-shadow: 0 0 20px white;
+}
+    .tablediv td {
+        border: 2px solid black;
+        padding: 7px;
+        text-align: center;
+    }
+
+    .tablediv tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .tablediv tr:nth-child(odd) {
+        background-color: white;
+    }
+
+    .tablediv th {
+        background-color: black;
+        padding: 8px;
+        color: white;
+        border: 2px solid black;
+    }

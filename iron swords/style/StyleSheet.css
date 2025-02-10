@@ -1,0 +1,143 @@
+﻿h1 {
+    text-align: center
+}
+
+.white, h1, ul {
+    color: black
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.align {
+    text-align: center;
+}
+
+
+    
+
+.headline {
+    text-align: center;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    color: black;
+}
+
+
+body {
+    background: url('../pictures/orange background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: sans-serif;
+    margin: 0; /* Avoid extra space due to margin */
+    min-height: 100vh;
+}
+
+
+
+.grid {
+    width:100vw;
+    display: inline-grid;
+    grid-template-columns: 50% 50% auto auto;
+    column-gap: 10px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+.gridblack {
+    width: 100vw;
+    display: inline-grid;
+    grid-template-columns: 50% 50% auto auto;
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color:white;
+}
+    
+
+.text {
+    direction: ltr;
+    margin-left: 8%;
+    color: white;
+}
+
+    .text:nth-child(even) {
+        direction: rtl;
+        margin-right: 8%;
+        color: black
+    }
+
+.imgbg {
+    width: 80%;
+    height: auto;
+    left: 50px;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+
+    .imgbg:nth-child(even) {
+        right: 50px;
+        margin: auto;
+        box-shadow: 0 0 10px white;
+    }
+
+h3 {
+    text-align: center
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+.intro {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.intro-text {
+    z-index: 2;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 350px;
+}
+
+    .intro-text p {
+        font-size: 60px;
+    }
+
+.flex-videos {
+    width:85%;
+    height:auto;
+}
+
+.statics {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 34px;
+    margin-top:100px;
+}
+
+.visitor {
+    background: white;
+    text-align: center;
+}
+    

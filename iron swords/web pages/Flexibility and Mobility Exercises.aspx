@@ -1,0 +1,94 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/web pages/Mater-Page.Master" AutoEventWireup="true" CodeBehind="Flexibility and Mobility Exercises.aspx.cs" Inherits="iron_swords.web_pages.Flexibility_workouts" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta charset="utf-8">
+    <link href="../style/boxes.css" rel="stylesheet" />
+    <link href="../style/StyleSheet.css" rel="stylesheet" />
+    <title>Flexibility and Mobility Exercises</title>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="headline">
+        <h1>Flexibility and Mobility Exercises</h1>
+        <p>Improve your flexibility and mobility with these effective exercises and stretches.</p>
+    </div>
+    &nbsp;
+    <div class="align">
+        <div class="box-flexabilty-22">
+            <img class="boximage" src="../pictures/flexabilty matter.png" />
+            <h2>Why Flexibility Matter</h2>
+            <p>Flexibility and mobility are essential for overall well-being and injury prevention. Learn why these aspects of fitness are crucial for your health.</p>
+        </div>
+        <div class="box-flexabilty-22">
+            <img class="boximage" src="../pictures/dynamic-stretching.jpg" />
+            <h2>Dynamic Stretching</h2>
+            <p>Dynamic stretching exercises help improve your range of motion and prepare your muscles for activity. Explore various dynamic stretches to incorporate into your warm-up routine.</p>
+        </div>
+        <div class="box-flexabilty-22">
+            <img class="boximage" src="../pictures/static-stretching.jpg" />
+            <h2>Static Stretching</h2>
+            <p>Static stretches can help you increase flexibility and relieve muscle tension. Discover static stretching exercises to include in your cool-down or recovery routine.</p>
+        </div>
+        <div class="box-flexabilty-22">
+            <img class="boximage" src="../pictures/Mobility Drills.jpg" />
+            <h2>Mobility Drills</h2>
+            <p>Mobility drills focus on joint mobility and function. Learn effective drills to enhance joint mobility and reduce the risk of stiffness or discomfort.</p>
+        </div>
+    </div>
+    <div class="align">
+        <div class="headline">
+            <h2>Flexibility and Mobility Workouts</h2>
+            <p>Combine dynamic stretches, static stretches, and mobility drills into comprehensive flexibility and mobility workouts. Follow along with sample routines.</p>
+        </div>
+        <br />
+        <br />
+        <div class="gridblack">
+            <div class="text">
+                <h2>Static Stretching</h2>
+                <p>Static stretching is a form of flexibility exercise that involves holding a position to stretch a particular muscle or group of muscles. It's ideal for improving overall flexibility and range of motion. Static stretches are typically held for 15-30 seconds and should be performed after your workout to help with muscle recovery and reduce the risk of injury.</p>
+            </div>
+            <img class="imgbg" src="../pictures/staticstrechinggrid.jpg" />
+        </div>
+        <div class="grid">
+            <img class="imgbg" src="../pictures/dynamicsterchinggrid.jpg" />
+            <div class="text">
+                <h2>Dynamic Stretching</h2>
+                <p>Dynamic stretching involves active movements that mimic the exercises you'll perform during your workout. It helps increase blood flow, heart rate, and joint mobility. Dynamic stretches are perfect for warming up before your main exercise routine. They should be performed in a controlled and deliberate manner to prepare your body for more intense physical activity.</p>
+            </div>
+        </div>
+        <div class="gridblack">
+            <div class="x">
+                <h2>PNF Stretching</h2>
+                <p>PNF (Proprioceptive Neuromuscular Facilitation) stretching is an advanced stretching technique that involves a combination of passive and isometric stretching. It's highly effective in improving flexibility, particularly when performed with a partner. PNF stretching helps to increase muscle strength and flexibility simultaneously, making it a popular choice among athletes and fitness enthusiasts.</p>
+            </div>
+            <img class="imgbg" src="../pictures/pnf stretch grid.png" />
+        </div>
+        <div class="grid">
+            <img class="imgbg" src="../pictures/yoga grid.jpg" />
+            <div class="text">
+                <h2>Yoga</h2>
+                <p>Yoga is an ancient practice that combines physical postures, breathing exercises, and meditation. It not only enhances flexibility but also promotes relaxation and mental well-being. Regular yoga practice can lead to improved flexibility, balance, and a reduction in stress. It's a great choice for those looking to achieve both physical and mental harmony.</p>
+            </div>
+        </div>
+        <div class="gridblack">
+            <div class="text">
+                <h2>Foam Rolling</h2>
+                <p>Foam rolling, also known as self-myofascial release, is a technique that uses a foam roller to massage and release muscle knots and tension. It can help improve flexibility by breaking down tight fascia and reducing muscle soreness. Foam rolling is often used as part of a warm-up or cool-down routine for athletes and fitness enthusiasts.</p>
+            </div>
+            <img class="imgbg" src="../pictures/foam stretch grid.jpg" />
+        </div>
+
+        <div class="grid">
+            <div>
+                <h2>Mobility Drills video</h2>
+                <video class="flex-videos" controls="controls">
+                    <source src="../media/Mobility%20Drills%20video.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div>
+                <h2>static vs dynamic video</h2>
+                <video class="flex-videos" controls="controls">
+                    <source src="../media/static%20vs%20dynamic.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>
+</asp:Content>

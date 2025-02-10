@@ -1,0 +1,133 @@
+﻿.box {
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+    overflow: auto;
+}
+
+.small-box {
+    width: 24%;
+    float: left;
+    height: 600px;
+    overflow: auto;
+    border-radius: 24px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.medium-box {
+    width: 28%;
+    float: left;
+    height: 600px;
+    overflow: auto;
+    border-radius: 24px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.large-box {
+    width: 38%;
+    height: 600px;
+    overflow: auto;
+    border-radius: 24px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.box-meal-30 {
+    width: 30%;
+    height: 110%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+    overflow: auto;
+    height: 525px;
+    border-radius: 24px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.box-strength-30 {
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+    overflow: auto;
+}
+.box-flexability-30 {
+    width: 30%;
+    height: 110%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+    overflow: auto;
+}
+.box-workout-30 {
+    width: 31%;
+    height: 120%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+    text-align: left;
+    overflow: auto;
+    border-radius: 24px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+
+.box-flexabilty-22 {
+    width: 22%;
+    height:400px;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+}
+
+.box-strength-22 {
+    width: 22%;
+    height: 100%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+}
+
+.box-video-flex-50 {
+    width: 45%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    color: black;
+}
+
+
+.boximage {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 0 10px black;
+}

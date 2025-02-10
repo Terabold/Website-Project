@@ -1,0 +1,104 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/web pages/Mater-Page.Master" AutoEventWireup="true" CodeBehind="Workouts.aspx.cs" Inherits="iron_swords.web_pages.Workouts" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta charset="utf-8">
+    <link href="../style/boxes.css" rel="stylesheet" />
+    <link href="../style/StyleSheet.css" rel="stylesheet" />
+    <title>Strength Training Workouts</title>
+    <style>
+        ul{
+            list-style:none
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <br />
+    <br />
+    <div style="text-align:center">
+        <div class="box-workout-30">
+            <h2>Full-Body Strength Workout</h2>
+            <p><em>Duration: 4 weeks | Difficulty: Beginner</em></p>
+            <h3>Week 1</h3>
+            <ul>
+                <li>Squats: 3 sets x 10 reps</li>
+                <li>Push-Ups: 3 sets x 8 reps</li>
+                <li>Bent-Over Rows: 3 sets x 10 reps</li>
+                <li>Plank: 3 sets x 20 seconds</li>
+            </ul>
+            <h3>Week 2</h3>
+            <ul>
+                <li>Lunges: 3 sets x 12 reps (each leg)</li>
+                <li>Dumbbell Bench Press: 3 sets x 10 reps</li>
+                <li>Deadlifts: 3 sets x 8 reps</li>
+                <li>Russian Twists: 3 sets x 12 reps (each side)</li>
+            </ul>
+            <h3>Week 3</h3>
+            <ul>
+                <li>Step-Ups: 3 sets x 12 reps (each leg)</li>
+                <li>Push-Ups with Rotation: 3 sets x 10 reps</li>
+                <li>Barbell Rows: 3 sets x 8 reps</li>
+                <li>Plank with Leg Lifts: 3 sets x 12 reps (each leg)</li>
+            </ul>
+
+        </div>
+        <div class="box-workout-30">
+            <h2>Bodyweight Strength Workout</h2>
+            <p><em>Duration: 8 weeks | Difficulty: Advanced</em></p>
+            <h3>Week 1</h3>
+            <ul>
+                <li>Push-Ups: 4 sets x 15 reps</li>
+                <li>Pull-Ups: 4 sets x 10 reps</li>
+                <li>Pistol Squats: 4 sets x 8 reps (each leg)</li>
+                <li>Plank: 4 sets x 30 seconds</li>
+            </ul>
+            <h3>Week 2</h3>
+            <ul>
+                <li>Push-Ups: 4 sets x 15 reps</li>
+                <li>Pull-Ups: 4 sets x 10 reps</li>
+                <li>Pistol Squats: 4 sets x 8 reps (each leg)</li>
+                <li>Plank: 4 sets x 30 seconds</li>
+            </ul>
+            <h3>Week 3</h3>
+            <ul>
+                <li>Diamond Push-Ups: 4 sets x 15 reps</li>
+                <li>Chin-Ups: 4 sets x 10 reps</li>
+                <li>Single-Leg Glute Bridge: 4 sets x 10 reps (each leg)</li>
+                <li>Side Plank: 4 sets x 30 seconds (each side)</li>
+            </ul>
+        </div>
+
+        <div class="box-workout-30">
+            <h2>Isolated Muscle Strength Workout</h2>
+            <p><em>Duration: 6 weeks | Difficulty: Intermediate</em></p>
+            <h3>Week 1</h3>
+            <ul>
+                <li>Legs (Quads): Leg Extensions - 3 sets x 12 reps</li>
+                <li>Chest: Bench Press - 3 sets x 10 reps</li>
+                <li>Back (Lats): Lat Pulldowns - 3 sets x 10 reps</li>
+                <li>Shoulders (Delts): Dumbbell Shoulder Press - 3 sets x 10 reps</li>
+            </ul>
+            <h3>Week 2</h3>
+            <ul>
+                <li>Legs (Quads): Leg Press - 3 sets x 12 reps</li>
+                <li>Chest: Dumbbell Flyes - 3 sets x 10 reps</li>
+                <li>Back (Lats): Seated Cable Rows - 3 sets x 10 reps</li>
+                <li>Shoulders (Delts): Lateral Raises - 3 sets x 12 reps</li>
+            </ul>
+            <h3>Week 3</h3>
+            <ul>
+                <li>Legs (Hamstrings): Romanian Deadlifts - 3 sets x 12 reps</li>
+                <li>Chest: Incline Bench Press - 3 sets x 10 reps</li>
+                <li>Back (Rhomboids): Face Pulls - 3 sets x 12 reps</li>
+                <li>Shoulders (Delts): Front Raises - 3 sets x 12 reps</li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="headline">
+        <h3>Ready to achieve your fitness goals?</h3>
+        <p>Whether you're just starting or well into your fitness journey, remember that consistency and dedication are key. Stay motivated, and don't hesitate to adjust the workouts to your fitness level. Your wellness is our priority, and we're here to support you every step of the way.</p>
+    </div>
+    <br />
+<br />
+<br />
+<br />
+</asp:Content>
